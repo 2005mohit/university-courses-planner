@@ -1,0 +1,100 @@
+export const DAYS = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'];
+
+export const TIME_SLOTS = [
+  '08:00', '09:00', '10:00', '11:00', '12:00',
+  '13:00', '14:00', '15:00', '16:00', '17:00', '18:00',
+];
+
+export const DEPARTMENTS = [
+  'Computer Science',
+  'Mathematics',
+  'Physics',
+  'Chemistry',
+  'Biology',
+  'Engineering',
+  'Business',
+  'Economics',
+  'Psychology',
+  'Literature',
+  'History',
+  'Political Science',
+];
+
+export const COURSE_TYPES = ['Lecture', 'Lab', 'Seminar', 'Tutorial'];
+
+export const COURSE_COLORS = [
+  '#1A237E', '#283593', '#1565C0', '#0277BD',
+  '#00695C', '#2E7D32', '#558B2F', '#E65100',
+  '#6A1B9A', '#4A148C', '#AD1457', '#B71C1C',
+];
+
+export const sampleCourses = [
+  {
+    id: '1',
+    code: 'CS301',
+    name: 'Data Structures & Algorithms',
+    instructor: 'Dr. Emily Chen',
+    credits: 4,
+    department: 'Computer Science',
+    type: 'Lecture',
+    day: 'Monday',
+    startTime: '09:00',
+    endTime: '10:00',
+    room: 'Tech Hall 201',
+    color: '#1A237E',
+    maxEnrollment: 60,
+    enrolled: 45,
+    description: 'Study of fundamental data structures and algorithm design techniques.',
+  },
+  {
+    id: '2',
+    code: 'MATH201',
+    name: 'Linear Algebra',
+    instructor: 'Prof. Alan Thompson',
+    credits: 3,
+    department: 'Mathematics',
+    type: 'Lecture',
+    day: 'Tuesday',
+    startTime: '11:00',
+    endTime: '12:00',
+    room: 'Science Block 105',
+    color: '#00695C',
+    maxEnrollment: 80,
+    enrolled: 72,
+    description: 'Vector spaces, matrices, linear transformations, and eigenvalues.',
+  },
+  {
+    id: '3',
+    code: 'CS302',
+    name: 'Operating Systems',
+    instructor: 'Dr. Marcus Lee',
+    credits: 4,
+    department: 'Computer Science',
+    type: 'Lecture',
+    day: 'Wednesday',
+    startTime: '14:00',
+    endTime: '15:00',
+    room: 'Tech Hall 301',
+    color: '#283593',
+    maxEnrollment: 50,
+    enrolled: 38,
+    description: 'Processes, threads, memory management, file systems, and I/O.',
+  },
+  {
+    id: '4',
+    code: 'PHY201',
+    name: 'Quantum Mechanics',
+    instructor: 'Dr. Sarah Novak',
+    credits: 3,
+    department: 'Physics',
+    type: 'Lecture',
+    day: 'Thursday',
+    startTime: '10:00',
+    endTime: '11:00',
+    room: 'Physics Lab 102',
+    color: '#6A1B9A',
+    maxEnrollment: 40,
+    enrolled: 35,
+    description: 'Wave-particle duality, Schrödinger equation, and quantum states.',
+  },
+];
